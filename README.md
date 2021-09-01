@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/abouhilalbadr/countries-api)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/abouhilalbadr/countries-api](https://github.com/abouhilalbadr/countries-api)
+- Live Site URL: [https://abouhilalbadr.github.io/](https://abouhilalbadr.github.io/)
 
 ## My process
 
