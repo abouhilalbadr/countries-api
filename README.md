@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/abouhilalbadr/countries-api](https://github.com/abouhilalbadr/countries-api)
-- Live Site URL: [https://abouhilalbadr.github.io/](https://abouhilalbadr.github.io/)
+- Live Site URL: [https://restapicountries.netlify.app/](https://restapicountries.netlify.app/)
 
 ## My process
 
