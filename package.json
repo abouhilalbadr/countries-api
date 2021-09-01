@@ -1,6 +1,5 @@
 {
   "name": "rest-countries",
-  "homepage": "https://abouhilalbadr.github.io/countries-api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,8 +14,6 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "craco build",
-    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
@@ -42,7 +39,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^9",
-    "gh-pages": "^3.2.3",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
