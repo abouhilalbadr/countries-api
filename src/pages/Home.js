@@ -13,7 +13,7 @@ const Home = () => {
   }
 
   useEffect(() => {
-    fetch('https://restcountries.eu/v2/all')
+    fetch('https://restcountries.com/v2/all')
       .then(resp => resp.json())
       .then(data => {
         updateCountries(data)
