@@ -8,7 +8,7 @@ const CoutryDetails = () => {
   const [country, setCountry] = useState(null);
 
   useEffect(() => {
-    fetch(`https://restcountries.eu/rest/v2/name/${name}`)
+    fetch(`https://restcountries.eu/v2/name/${name}`)
       .then(resp => resp.json())
       .then(data => {
         setCountry(data && data[0])
