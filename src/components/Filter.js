@@ -6,7 +6,7 @@ const Filter = (props) => {
   const [active, setActive] = useState(null);
 
   const setFilter = (region) => {
-    fetch(`https://restcountries.eu/rest/v2/region/${region.toLowerCase()}`)
+    fetch(`https://restcountries.com/v2/region/${region.toLowerCase()}`)
     .then(resp => resp.json())
     .then(data => {
       props.countriesFilter(data)
