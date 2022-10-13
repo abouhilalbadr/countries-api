@@ -6,7 +6,7 @@ const BorderCountry = ({ code, ...extra }) => {
   const [country, setCountry] = useState(null);
 
   useEffect(() => {
-    fetch(`https://restcountries.eu/rest/v2/alpha/${code.toLowerCase()}`)
+    fetch(`https://restcountries.com/v2/alpha/${code.toLowerCase()}`)
       .then(resp => resp.json())
       .then(data => {
         setCountry(data)
