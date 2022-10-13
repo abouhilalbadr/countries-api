@@ -2,7 +2,7 @@ const Search = (props) => {
 
   const searchByName = (e) => {
     const name = e.target.value;
-    const url = (name) ? `https://restcountries.eu/rest/v2/name/${name.toLowerCase()}` : 'https://restcountries.eu/rest/v2/all';
+    const url = (name) ? `https://restcountries.com/v2/name/${name.toLowerCase()}` : 'https://restcountries.eu/rest/v2/all';
     fetch(url)
     .then(resp => resp.json())
     .then(data => {
